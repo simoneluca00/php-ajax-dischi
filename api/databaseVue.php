@@ -45,4 +45,9 @@
         ]
     ];
 
+    // trasformare l'array in un Json
+    header('Content-Type: application/json');
+
+    echo json_encode($database);
+
 ?>
