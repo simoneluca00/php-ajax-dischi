@@ -1,0 +1,22 @@
+body {
+    height: 100vh;
+}
+
+header {
+    background-color: #2e3a46;
+    height: 10vh;
+    min-height: 80px;
+}
+
+main {
+    background-color: #1e2d3b;
+    height: 90vh;
+}
+
+.bg-card {
+    background-color: #2e3a46;
+}
+
+.sz_card {
+    min-height: 450px;
+}
