@@ -47,7 +47,35 @@
             'year' => 2002,
             'poster' => 'https://images-na.ssl-images-amazon.com/images/I/81MDAIdh78L._SY355_.jpg',
             'genre' => 'Rock'
-        ]
+        ],
+        [
+            'title' => 'Made in Japan',
+            'author' => 'Deep Purple',
+            'year' => 1972,
+            'poster' => 'https://images-na.ssl-images-amazon.com/images/I/51rggtPgmRL.jpg',
+            'genre' => 'Rock'
+        ],
+        [
+            'title' => 'And Justice for All',
+            'author' => 'Metallica',
+            'year' => 1988,
+            'poster' => 'https://images-na.ssl-images-amazon.com/images/I/81r3FVfNG3L._SY355_.jpg',
+            'genre' => 'Metal'
+        ],
+        [
+            'title' => 'Hard Wired',
+            'author' => 'Dave Weckl',
+            'year' => 1994,
+            'poster' => 'https://img.discogs.com/KOBsqQwKiNKH-q927oHMyVdDzSo=/fit-in/596x596/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6406665-1418464475-6120.jpeg.jpg',
+            'genre' => 'Jazz'
+        ],
+        [
+            'title' => 'Bad',
+            'author' => 'Michael Jacjson',
+            'year' => 1987,
+            'poster' => 'https://m.media-amazon.com/images/I/71K9CbNZPsL._SS500_.jpg',
+            'genre' => 'Pop'
+        ],
     ];
 
     // nuovo array che permette viene filtrato in base al genere scritto nell'URL

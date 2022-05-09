@@ -5,7 +5,7 @@
             Stampa tramite PHP
         </h1>
 
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5">
             <?php foreach ($filteredByGenre as $album) { ?>
 
             <div class="col text-center g-3">
@@ -33,7 +33,7 @@
             Stampa tramite Vue e Axios
         </h1>
 
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5">
             <div class="col text-center g-3" v-for="(elm, i) in albums" :key="i">
 
                 <div class="sz_card bg-card p-3">
