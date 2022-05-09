@@ -1,5 +1,10 @@
 <?php
 
+    // nell'URL: ?genre=..
+    $inputGenre = (isset($_GET['genre'])) ? $_GET['genre'] : '';
+    
+    $inputGenreLower = strtolower($inputGenre);
+
     $database = [
         [
             'title' => 'New Jersey',
@@ -44,5 +49,17 @@
             'genre' => 'Rock'
         ]
     ];
+
+    // nuovo array che permette viene filtrato in base al genere scritto nell'URL
+    $filteredByGenre = array_filter($database, function($singleAlbum) use($database, $inputGenreLower){
+        
+        // se non viene scritto niente (empty(inputGenre)) viene stampato l'array originale
+        if ($inputGenreLower == "") {
+            return $database;
+        }
+        
+        // corrispondenza tra genere scelto dall'utente e il value di ogni album (lowercase)
+        return (strtolower($singleAlbum['genre']) === $inputGenreLower);
+    });
 
 ?>
